@@ -1,0 +1,19 @@
+{
+  "name": "netlify-drop-demo-site-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jasonhhall/netlify-drop-demo-site-master.git",
+  "author": "Jaywood",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
